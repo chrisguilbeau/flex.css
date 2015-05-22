@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="flex.css">
+        <style>
+        #header{
+            background-color: red;
+            }
+        #left{
+            background-color: orange;
+            }
+        #middle{
+            background-color: yellow;
+            }
+        #right{
+            background-color: green;
+            }
+        #footer{
+            background-color: blue;
+            }
+        #header, #right, #footer{
+            color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id='main' class='flex-col flex-expand'>
+            <div id='header' class='flex-tight'>Header</div>
+            <div class='flex-row'>
+                <div id='left' class='flex-tight'>Left</div>
+                <div id='middle'>Middle</div>
+                <div id='right' class='flex-tight'>Right</div>
+            </div>
+            <div id='footer' class='flex-tight'>Footer</div>
+        </div>
+    </body>
+</html>
